@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
+        android:id="@+id/main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
@@ -30,8 +31,7 @@
         android:layout_marginHorizontal="100dp"
         android:layout_marginBottom="20dp"
         android:textSize="24dp"
-        android:text="Enter"/>
-
+        android:text="Submit"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
